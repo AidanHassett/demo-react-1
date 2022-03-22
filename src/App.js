@@ -1,10 +1,12 @@
 import FirstComp from './components/components-intro/comp1';
+import ArticleBody from './components/contact-form/ArticleBody';
+import PageBody from './components/contacts-manager/PageBody';
 import './css/App.css';
 
 function App() {
   return (
     <div className="App">
-      <FirstComp/>
+      <PageBody/>
     </div>
   );
 }

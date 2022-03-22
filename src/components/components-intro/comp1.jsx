@@ -1,4 +1,4 @@
-import chyna from "../cat.jpg"
+import chyna from "./cat.jpg"
 const FirstComp = () => {
   const name = "Aidan";
   const favs = {
@@ -7,6 +7,7 @@ const FirstComp = () => {
     "number" : 37,
     "animal" : chyna
   };
+
   return (
     <>
       <p> My name is {name}! </p>
