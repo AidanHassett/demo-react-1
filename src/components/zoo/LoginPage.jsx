@@ -12,10 +12,10 @@ const LoginPage = ({login}) => {
   return (
     <form>
       <label htmlFor="username">Username:</label>
-      <input type="text" name="username" id="username" onChange={(event) => tempUser = event.target.value}/>
+      <input type="text" name="usernameBox" id="usernameBox" onChange={(event) => tempUser = event.target.value}/>
       <br/>
       <label htmlFor="password">Password:</label>
-      <input type="password" name="password" id="password" onChange={(event) => tempPass = event.target.value}/>
+      <input type="password" name="passwordBox" id="passwordBox" onChange={(event) => tempPass = event.target.value}/>
       <br/>
       <button type="button" onClick={loginCaller}>Log In</button>
     </form>

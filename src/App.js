@@ -1,6 +1,6 @@
 import FirstComp from './components/components-intro/comp1';
 import ArticleBody from './components/contact-form/ArticleBody';
-import PageBody from './components/password-page/PageBody';
+import PageBody from './components/shopping-list/PageBody';
 import './css/App.css';
 
 function App() {
