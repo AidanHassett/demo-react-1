@@ -1,6 +1,6 @@
 import FirstComp from './components/components-intro/comp1';
 import ArticleBody from './components/contact-form/ArticleBody';
-import PageBody from './components/router-intro/PageBody';
+import PageBody from './components/dnd5e-api-request/PageBody';
 import './css/App.css';
 
 function App() {
