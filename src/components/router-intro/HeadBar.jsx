@@ -6,7 +6,8 @@ const HeadBar = () => {
     <header>
       <span>
         <Link to="/"> Home </Link>
-        <Link to="/about"> About </Link>
+        ||
+        <Link to="/post"> Make a Post </Link>
       </span>
     </header>
   );

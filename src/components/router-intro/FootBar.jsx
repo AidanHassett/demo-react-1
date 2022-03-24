@@ -1,7 +1,11 @@
+import {Link} from "react-router-dom";
+
 const FootBar = () => {
   return (
     <footer>
-      This is a footer
+      <span>
+        <Link to="/about"> About </Link>
+      </span>
     </footer>
   );
 };
