@@ -1,26 +1,29 @@
 import {useEffect, useState} from 'react';
 import axios from "axios";
 
+import Spell from "./Spell";
+
 const PageBody = () => {
 
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://www.dnd5eapi.co/api/spells/acid-arrow/")
+    axios.get("https://www.dnd5eapi.co/api/spells/")
       .then((response) => {
-        console.log(response.data);
-        setData(response.data);
+        setData(response.data.results);
       })
   }, [])
 
-  useEffect(() => {
-    console.log(data)
-  }, [data])
-
   return (
-    <>
-
-    </>
+    <div>
+      {
+        data.map((spell) => {
+          return (
+            <Spell spellId={spell} />
+          )
+        })
+      }
+    </div>
   )
 }
 
